@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import app from './app';
 import config from './config';
 
+
 async function main() {
   try {
     if (!config.database_url) {
