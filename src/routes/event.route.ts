@@ -14,4 +14,4 @@ router.put('/:id', eventControllers.updateEvent);
 // Delete event
 router.delete('/:id', eventControllers.deleteEvent);
 
-export const EventRoutes = router;
+export const EventRoutes = router
